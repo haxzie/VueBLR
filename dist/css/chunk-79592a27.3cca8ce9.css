@@ -1,0 +1,1 @@
+.map-container{width:100%;height:100%;position:relative;overflow:hidden}.map-container #deck-gl-canvas,.map-container #map{position:absolute;top:0;left:0;width:100%;height:100%}.map-container .menu-card{width:300px;height:500px;background:silver;position:absolute;top:12px;left:10px}
