@@ -52,7 +52,7 @@ export default {
         id: "heat-layer",
         type: HeatmapLayer,
         data: this.heatData,
-        getPosition: d => [d.location[1], d.location[0]],
+        getPosition: d => d.location,
         getWeight: d => d.weight
       });
 

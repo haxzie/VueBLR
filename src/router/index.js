@@ -11,6 +11,10 @@ const router = new Router({
     mode: 'history',
     linkActiveClass: 'set-active',
     routes: [
+        {
+            path: '/garbage',
+            component: () => import('../components/Garbage')
+        },
          {
             path: '/heat',
             component: () => import('../components/HeatMap')
