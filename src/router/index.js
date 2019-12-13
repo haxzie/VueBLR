@@ -12,6 +12,14 @@ const router = new Router({
     linkActiveClass: 'set-active',
     routes: [
         {
+            path: '/stops',
+            component: () => import('../components/BusStop')
+        },
+        {
+            path: '/arc',
+            component: () => import('../components/ArcLayer')
+        },
+        {
             path: '/garbage',
             component: () => import('../components/Garbage')
         },
